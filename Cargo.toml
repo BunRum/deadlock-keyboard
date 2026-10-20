@@ -1,0 +1,18 @@
+[package]
+name = "deadlock-keyboard"
+version = "0.1.0"
+edition = "2024"
+
+[build-dependencies]
+bindgen = "0.73.2"
+
+[dependencies]
+ctrlc = "3.5.2"
+dirs = "7.0.0"
+libm = "0.2.16"
+log = "0.4.34"
+proc_mem = "0.1.6"
+regex = "1.13.1"
+serde = {version = "1.0.229", features = ["derive"]}
+serde_json = {version = "1.0.154"}
+winreg = "0.56.0"
